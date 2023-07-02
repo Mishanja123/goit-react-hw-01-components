@@ -34,11 +34,13 @@ export const App = () => {
     <div style={{
         marginLeft: "40px",
         marginBottom: "40px",
+        paddingTop: "20px",
+        paddingLeft: "20px",
+        paddingRight: "20px",
+        paddingBottom: "20px",
         border: "solid pink",
         borderRadius: "20px",
-        width: "350px",
-        height: "280px",
-        overflow: "auto",
+        width: "300px",
     }}>
     <FriendList 
     friends={friends} 
