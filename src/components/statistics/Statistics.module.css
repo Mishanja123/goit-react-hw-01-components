@@ -10,7 +10,7 @@
 /* .title {
 
 }; */
-.stat-list{
+.statList{
     display: flex;
     flex-direction: row;
     gap: 20px;

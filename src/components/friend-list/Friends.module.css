@@ -1,0 +1,19 @@
+.friendList {
+    width: 150px;
+    height: 200px;
+    overflow-y: auto;
+    border: 2px solid pink;
+
+};
+.item {
+display: flex;
+flex-direction: row;
+};
+.status {
+
+};
+.avatar { 
+
+};
+.name {
+};

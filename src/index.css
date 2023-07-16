@@ -1,9 +1,3 @@
-@import url('./css/normalize.css'); 
-@import url('./components/profile/profile.css');
-@import url('./components/statistics/statistics.css');
-@import url('./components/friend-list/friends.css');
-@import url('./components/transaction-history/transactions.css');
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
