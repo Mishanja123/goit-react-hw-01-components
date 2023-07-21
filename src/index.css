@@ -1,4 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,300);
 body {
+  background-color: #f3effe;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -12,3 +14,19 @@ code {
     monospace;
 }
 
+p,ul,li,h2{
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.container{
+  margin: 40px auto;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  text-align: center;
+}

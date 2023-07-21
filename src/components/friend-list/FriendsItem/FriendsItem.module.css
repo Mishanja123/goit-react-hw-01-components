@@ -1,0 +1,36 @@
+.item {
+    display: flex;
+    align-items: center;
+    width:200px;
+    gap: 9px;
+    padding: 5px 10px;
+    background-color: #F5E8DF;
+    border-bottom: 1px solid #E1CFC2;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  .item:hover {
+    box-shadow: 3px 3px 3px #E1CFC2;
+  }
+  
+  .avatar {
+    width: 45px;
+    height: 45px;
+  }
+  .wrapp {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: start;
+  }
+  .name {
+    font-size: 18px;
+    color: #383e47;
+  }
+  .status {
+    color: #ffff;
+    font-weight: 600;
+    font-size: 8px;
+    padding: 2px 5px;
+    border-radius: 7px;
+  }
